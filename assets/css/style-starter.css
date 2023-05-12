@@ -14230,8 +14230,8 @@ p.white {
   transition: 0.3s ease-in;
   border-radius: 0;
   color: #fff;
-  background: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--blue);
+  border: 1px solid var(--blue);
   border-radius: var(--border-radius);
 }
 
@@ -14270,7 +14270,7 @@ p.white {
 .btn-white:hover,
 .btn-white-active {
   background-color: #fff;
-  color: var(--primary-color);
+  color: var(--blue);
   border: 1px solid #fff;
 }
 
@@ -14321,7 +14321,7 @@ a.link-style:hover:before {
   font-size: 16px;
   font-weight: 400;
   line-height: 2em;
-  color: var(--primary-color);
+  color: var(--blue);
   text-transform: uppercase;
 }
 
@@ -14568,7 +14568,7 @@ header {
 }
 
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
-  color: var(--primary-color);
+  color: var(--blue);
 }
 
 .navbar-dark .navbar-nav .show>.nav-link,
@@ -14693,7 +14693,7 @@ nav ul li a:hover {
 }
 
 .nav-fixed .navbar-expand-lg .navbar-nav li.nav-item.active .nav-link {
-  color: var(--primary-color);
+  color: var(--blue);
 }
 
 .dropdown-item:hover,
@@ -14976,7 +14976,7 @@ nav ul li a:hover {
     width: 34px;
     height: 34px;
     display: inline-block;
-    background: var(--primary-color);
+    background: var(--blue);
     border-radius: 4px;
     text-align: center;
   }
@@ -16318,7 +16318,7 @@ button.owl-next {
 }
 
 .welcome-left p a {
-  color: var(--primary-color);
+  color: var(--blue);
   font-weight: 600;
 
 }
@@ -17416,7 +17416,7 @@ label.price-label {
 }
 
 ul.breadcrumbs-custom-path li a {
-  color: var(--primary-color);
+  color: var(--blue);
 }
 
 .w3l-about-breadcrumb .breadcrumbs-custom-path li span.fa {
