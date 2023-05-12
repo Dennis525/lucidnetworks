@@ -16286,7 +16286,7 @@ button.owl-next {
 /*--//bottom-grids--*/
 /*--/middle--*/
 .middle {
-  background: url(../images/lucid.png) no-repeat top;
+  background: url(../images/internetservice.jpg) no-repeat top;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -16605,7 +16605,6 @@ button.owl-next {
 .ch-img-4 {
   background-image: url(../images/person5.jpg);
 }
-
 .ch-info h4 {
   color: #fff;
   text-transform: uppercase;
@@ -17463,7 +17462,7 @@ ul.breadcrumbs-custom-path li a {
 }
 
 .w3l-footer-66 h2 a.navbar-brand span {
-  color: var(--primary-color);
+  color: blue;
   font-weight: 400;
   font-family: 'Limelight', cursive;
 }
