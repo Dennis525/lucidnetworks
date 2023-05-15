@@ -1,6 +1,3 @@
-
-@charset "UTF-8";
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -14562,7 +14559,7 @@ header {
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {
-  padding: 0 12px;
+  padding: 0 39px;
   transition: all 0.5s ease;
   position: relative;
 }
@@ -16062,7 +16059,7 @@ div#small-dialog3 iframe {
   width: 16px;
   height: 16px;
   margin: 5px 2px;
-  background: #fff;
+  background: var(--primary-color);
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
@@ -16086,7 +16083,7 @@ button.owl-next {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--primary-color);
+  background: var(--blue);
 }
 
 /*--/testimonials--*/
@@ -16953,13 +16950,13 @@ button.owl-next {
 .w3l-pricing ul.list-unstyled li span.fa {
   font-size: 14px;
   margin-right: 5px;
-  color: var(--primary-color);
+  color: var(--blue);
 }
 
 label.price-label {
   font-size: 14px;
   color: #fff;
-  background: var(--primary-color);
+  background: var(--blue);
   padding: 5px 38px;
   position: absolute;
   right: -50px;
@@ -17020,12 +17017,12 @@ label.price-label {
 .w3l-pricing .price-inner.card.box-shadow.active {
   background: var(--bg-light);
   transition: all .3s;
-  border-top: 3px solid var(--primary-color);
+  border-top: 3px solid var(--blue);
 }
 
 .w3l-pricing .price-inner.card.box-shadow:hover .pricing-card-title,
 .w3l-pricing .price-inner.card.box-shadow.active .pricing-card-title {
-  color: var(--primary-color);
+  color: var(--blue);
 }
 
 @media (max-width: 1080px) {
@@ -17206,7 +17203,7 @@ label.price-label {
   font-size: 18px;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  color: var(--primary-color);
+  color: var(--blue);
   font-style: italic;
 }
 
@@ -17462,7 +17459,7 @@ ul.breadcrumbs-custom-path li a {
 }
 
 .w3l-footer-66 h2 a.navbar-brand span {
-  color: blue;
+  color: var(--blue);
   font-weight: 400;
   font-family: 'Limelight', cursive;
 }
